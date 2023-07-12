@@ -19,28 +19,6 @@ namespace AnagramChecker.Models
             
         }
 
-
-
-
-
-
-        // public bool isAnagram(string a, string b)
-        // {
-        //     throw new NotImplementedException();
-        // }
-
-        // public string CheckType()
-
-        // if (inputtedAnagramOne = inputtedAnagramTwo) {
-        //     Return True;
-
-        // else 
-
-        //     return false;
-        // }
-
-        //checking each character and position maybe using for loop?
-
     }
 
 }
