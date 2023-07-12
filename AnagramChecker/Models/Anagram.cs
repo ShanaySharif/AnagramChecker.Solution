@@ -17,6 +17,10 @@ namespace AnagramChecker.Models
             return wordOneChars.SequenceEqual(wordTwoChars);
             
         }
+
+
+        
     }
+
 }
 
