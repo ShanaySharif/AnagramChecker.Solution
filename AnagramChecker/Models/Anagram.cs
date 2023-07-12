@@ -4,22 +4,43 @@ using System;
 using System.Linq;
 namespace AnagramChecker.Models
 {
-    public class Vocab 
+    public class Anagram 
     {
-        public bool IsAnagram(string inputtedWordOne, string inputtedWordTwo)
+        public bool IsAnagram(string inputtedAnagramOne, string inputtedAnagramTwo)
         {
-            char[] wordOneChars = inputtedWordOne.ToLower().ToCharArray();
-            char[] wordTwoChars = inputtedWordTwo.ToLower().ToCharArray();
+            //converting to character array 
+            char[] anagramOneChars = inputtedAnagramOne.ToLower().ToCharArray();
+            char[] anagramTwoChars = inputtedAnagramTwo.ToLower().ToCharArray();
 
-            Array.Sort(wordOneChars);
-            Array.Sort(wordTwoChars);
+            Array.Sort(anagramOneChars);
+            Array.Sort(anagramTwoChars);
 
-            return wordOneChars.SequenceEqual(wordTwoChars);
+            return anagramOneChars.SequenceEqual(anagramTwoChars);
             
         }
 
 
-        
+
+
+
+
+        // public bool isAnagram(string a, string b)
+        // {
+        //     throw new NotImplementedException();
+        // }
+
+        // public string CheckType()
+
+        // if (inputtedAnagramOne = inputtedAnagramTwo) {
+        //     Return True;
+
+        // else 
+
+        //     return false;
+        // }
+
+        //checking each character and position maybe using for loop?
+
     }
 
 }
